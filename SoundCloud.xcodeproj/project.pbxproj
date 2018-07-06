@@ -14,6 +14,14 @@
 		C38196B420B2D51F00AF0FE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38196B220B2D51F00AF0FE4 /* LaunchScreen.storyboard */; };
 		C38196BF20B2D51F00AF0FE4 /* SoundCloudTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38196BE20B2D51F00AF0FE4 /* SoundCloudTests.swift */; };
 		C38196CA20B2D51F00AF0FE4 /* SoundCloudUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38196C920B2D51F00AF0FE4 /* SoundCloudUITests.swift */; };
+		C38196EB20B2E61B00AF0FE4 /* Sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C38196EA20B2E61B00AF0FE4 /* Sound1.mp3 */; };
+		C38196F020B2ECB500AF0FE4 /* Sound6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C38196EC20B2ECB400AF0FE4 /* Sound6.mp3 */; };
+		C38196F120B2ECB500AF0FE4 /* Sound4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C38196ED20B2ECB400AF0FE4 /* Sound4.mp3 */; };
+		C38196F220B2ECB500AF0FE4 /* Sound3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C38196EE20B2ECB400AF0FE4 /* Sound3.mp3 */; };
+		C38196F320B2ECB500AF0FE4 /* Sound5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C38196EF20B2ECB500AF0FE4 /* Sound5.mp3 */; };
+		C38196F520B2ECDC00AF0FE4 /* Sound2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C38196F420B2ECDC00AF0FE4 /* Sound2.mp3 */; };
+		C38196F720B2F62F00AF0FE4 /* Sound7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C38196F620B2F62F00AF0FE4 /* Sound7.mp3 */; };
+		C38196FA20B315F400AF0FE4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C38196F920B315F400AF0FE4 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		C38196C520B2D51F00AF0FE4 /* SoundCloudUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundCloudUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C38196C920B2D51F00AF0FE4 /* SoundCloudUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundCloudUITests.swift; sourceTree = "<group>"; };
 		C38196CB20B2D51F00AF0FE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C38196EA20B2E61B00AF0FE4 /* Sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound1.mp3; sourceTree = "<group>"; };
+		C38196EC20B2ECB400AF0FE4 /* Sound6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound6.mp3; sourceTree = "<group>"; };
+		C38196ED20B2ECB400AF0FE4 /* Sound4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound4.mp3; sourceTree = "<group>"; };
+		C38196EE20B2ECB400AF0FE4 /* Sound3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound3.mp3; sourceTree = "<group>"; };
+		C38196EF20B2ECB500AF0FE4 /* Sound5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound5.mp3; sourceTree = "<group>"; };
+		C38196F420B2ECDC00AF0FE4 /* Sound2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound2.mp3; sourceTree = "<group>"; };
+		C38196F620B2F62F00AF0FE4 /* Sound7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Sound7.mp3; sourceTree = "<group>"; };
+		C38196F920B315F400AF0FE4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38196FA20B315F400AF0FE4 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +98,7 @@
 				C38196BD20B2D51F00AF0FE4 /* SoundCloudTests */,
 				C38196C820B2D51F00AF0FE4 /* SoundCloudUITests */,
 				C38196A720B2D51F00AF0FE4 /* Products */,
+				C38196F820B315F400AF0FE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +121,7 @@
 				C38196B020B2D51F00AF0FE4 /* Assets.xcassets */,
 				C38196B220B2D51F00AF0FE4 /* LaunchScreen.storyboard */,
 				C38196B520B2D51F00AF0FE4 /* Info.plist */,
+				C38196E320B2D56500AF0FE4 /* Music */,
 			);
 			path = SoundCloud;
 			sourceTree = "<group>";
@@ -123,6 +142,28 @@
 				C38196CB20B2D51F00AF0FE4 /* Info.plist */,
 			);
 			path = SoundCloudUITests;
+			sourceTree = "<group>";
+		};
+		C38196E320B2D56500AF0FE4 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				C38196EA20B2E61B00AF0FE4 /* Sound1.mp3 */,
+				C38196F420B2ECDC00AF0FE4 /* Sound2.mp3 */,
+				C38196EE20B2ECB400AF0FE4 /* Sound3.mp3 */,
+				C38196ED20B2ECB400AF0FE4 /* Sound4.mp3 */,
+				C38196EF20B2ECB500AF0FE4 /* Sound5.mp3 */,
+				C38196EC20B2ECB400AF0FE4 /* Sound6.mp3 */,
+				C38196F620B2F62F00AF0FE4 /* Sound7.mp3 */,
+			);
+			path = Music;
+			sourceTree = "<group>";
+		};
+		C38196F820B315F400AF0FE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C38196F920B315F400AF0FE4 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +273,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38196F220B2ECB500AF0FE4 /* Sound3.mp3 in Resources */,
 				C38196B420B2D51F00AF0FE4 /* LaunchScreen.storyboard in Resources */,
+				C38196EB20B2E61B00AF0FE4 /* Sound1.mp3 in Resources */,
 				C38196B120B2D51F00AF0FE4 /* Assets.xcassets in Resources */,
+				C38196F120B2ECB500AF0FE4 /* Sound4.mp3 in Resources */,
+				C38196F520B2ECDC00AF0FE4 /* Sound2.mp3 in Resources */,
+				C38196F020B2ECB500AF0FE4 /* Sound6.mp3 in Resources */,
+				C38196F320B2ECB500AF0FE4 /* Sound5.mp3 in Resources */,
+				C38196F720B2F62F00AF0FE4 /* Sound7.mp3 in Resources */,
 				C38196AF20B2D51F00AF0FE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -426,11 +474,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SoundCloud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hamza.SoundCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -440,11 +491,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SoundCloud/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = hamza.SoundCloud;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
